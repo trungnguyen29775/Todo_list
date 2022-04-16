@@ -1,0 +1,36 @@
+{
+  "name": "todo_list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trungnguyen29775/Todo_list.git"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "IoT",
+    "deadline"
+  ],
+  "author": "Trung, Truc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trungnguyen29775/Todo_list/issues"
+  },
+  "homepage": "https://github.com/trungnguyen29775/Todo_list#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
