@@ -2,7 +2,6 @@ const path = require('path');
 const express = require('express')
 const morgan = require('morgan');
 const handlebars= require('express-handlebars');
-const bcrypt = require('bcrypt');
 const app = express();
 const port = 3000;
 const todoList=[];
