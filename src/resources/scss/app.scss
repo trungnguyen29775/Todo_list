@@ -112,3 +112,87 @@
     background-color: #bbb;
   }
 
+  #form-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center; }
+  
+  form {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px; }
+  
+  form div {
+    display: flex;
+    flex-direction: column; }
+  
+  form div input {
+    width: 450px; }
+  
+  form button {
+    width: 40%; 
+    border-radius: 15px;
+    font-size: 20px;
+    border-style: solid;
+  }
+  
+  form a {
+    text-decoration: none;
+    color: black; }
+.page-container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.page
+{
+  margin: auto auto;
+  border-radius: 15px;
+  height: 50%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-style: solid;
+  justify-content: space-around;
+}
+
+.page button
+{
+  border-radius: 20px;
+  border-style: solid;
+  width: 40%;
+  height: 20%;
+  
+}
+
+.page button a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.page button:hover
+{
+  background-color: rgb(169, 162, 162);
+  color: white;
+  // cursor:pointer;
+}
+
+.page button a:hover
+{
+  color: rgb(255, 255, 255);
+}
