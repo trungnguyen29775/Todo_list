@@ -25,12 +25,20 @@
   },
   "homepage": "https://github.com/trungnguyen29775/Todo_list#readme",
   "dependencies": {
-    "express": "^4.17.3",
-    "express-handlebars": "^5.1.0"
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3"
   },
   "devDependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "flash": "^1.1.0",
     "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.19.0"
   }
 }

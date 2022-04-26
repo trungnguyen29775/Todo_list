@@ -9,18 +9,21 @@
 </head>
 <body>
     <div class="app">
-      
-        {{>header}}
+      <div class="web-base">
+        <div class="header-container">
+          {{>header}}
 
-        <div class="container">
-            {{{body}}}
+        </div>
+        <div class="body-container">
+          {{{body}}}
+        </div>
+        <div class="footer-container">
+          {{>footer}}
 
         </div>
 
-        {{>footer}}
-
-      
+      </div>
     </div>
-  
+    <script src="/js/todo.js"></script>
 </body>
 </html>
